@@ -1,0 +1,50 @@
+﻿body {
+    padding-top: 50px;
+    background-color: #eee;
+    -ms-overflow-style: scrollbar;
+}
+
+form.form-panel-default {
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.panel {
+	background: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+div.btn-group.btn-group-justified > div.btn-group:first-child {  /* side by side button dynamic width */
+    width: 0.25%
+}
+
+h3.panel-title {
+    position: relative;
+}
+
+h3.panel-title a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+}
+
+h3.panel-title a:hover {
+    text-decoration: underline;
+}
+
+#restaurantRegions, #restaurantNames {
+    padding-left: 25px;
+}
+
+#lblError, #RestaurantsFetched {
+    margin-top: 40px;
+    display: none;
+}
+
+#rblSignInAs {
+    padding-left: 45px;
+    margin-top: 0;
+}
