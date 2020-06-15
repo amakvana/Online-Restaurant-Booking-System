@@ -1,4 +1,4 @@
-# Online-Restaurant-Booking-System
+# Online Restaurant Booking System
 
 <ins>A University Project</ins>
 
